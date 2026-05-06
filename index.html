@@ -1,11 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Michael Schienbein Portfolio</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #222;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+#welcome {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+#welcome h1 {
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.project, .achievement, .social {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  #welcome h1 {
+    font-size: 1.8rem;
+  }
+}
+</style>
 </head>
 <body>
-    <h1>Michael</h1>
+
+<nav>
+  <a href="#welcome">Home</a>
+  <a href="#projects">Projects</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#profile">Profile</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="welcome">
+  <div>
+    <h1>Hi, I’m Michael Schienbein, a Future Developer!</h1>
+    <p>Aspiring software developer skilled in Java and Python.</p>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="project">
+      <p><strong>GitHub Portfolio:</strong></p>
+      <a href="https://github.com/WFbBjNxtlBpu" target="_blank">View My Projects</a>
+    </div>
+  </div>
+</section>
+
+<section id="achievements">
+  <div class="container">
+    <h2>Achievements</h2>
+    <div class="achievement">
+      <p><strong>Codewars:</strong></p>
+      <a href="https://www.codewars.com/users/WFbBjNxtlBpu" target="_blank">View Profile</a>
+    </div>
+  </div>
+</section>
+
+<section id="profile">
+  <div class="container">
+    <h2>Profile</h2>
+    <p>I am a Software and App Design student at the East Valley Institute of Technology. I have built a strong foundation in Java and Python through coursework and coding challenges. I am focused on developing real-world applications and growing as a software developer.</p>
+
+    <h3>Resume Summary</h3>
+    <p>Aspiring software developer studying Software and App Design at EVIT, with skills in Java and Python. Seeking an entry-level or internship role to build real-world experience.</p>
+
+    <h3>Cover Letter Highlights</h3>
+    <p>I have developed programming skills through hands-on projects and coding challenges, strengthening my problem-solving and debugging abilities. I bring strong work ethic, adaptability, and a willingness to learn quickly in team environments.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>Email: xsupermichaelx@gmail.com</p>
+    <p><a href="https://www.linkedin.com/in/michael-schienbein-b021813a8" target="_blank">LinkedIn</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Michael Schienbein</p>
+</footer>
+
 </body>
 </html>
